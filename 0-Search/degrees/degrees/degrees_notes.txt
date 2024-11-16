@@ -1,0 +1,20 @@
+2023-12-03 Sunday, Michael Tague
+----------------------------------
+
+From lecture notes:
+- Agent is entity that perceives env and acts on it.
+- State is the config of an agent.
+- Action is the choices that can be made
+- Transition Model, a function Function(state, action) -> state.
+- 
+
+In maze examples, the state was the location in the maze and the actions were the moves to 
+the adjacent squares of the maze.
+
+In "degrees" problem, there are
+- People (actors) with an id, name, and birth year
+- Movies with an id, title, and release year
+- stars with a mapping from people-id to movie-id.
+
+So, for our search, the 
+- State is a person

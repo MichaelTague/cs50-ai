@@ -1,0 +1,11 @@
+cs50-ai/maze/ dir contains a version of the 1st week's maze program that 
+displays a maze in the web browser.
+
+Eg use:
+
+    python maze.py maze4
+
+The maze1, maze2, etc., files are each different mazes.  quiz0q2 is the maze
+from Quiz 0, Question 2.
+
+maze4 is worst case for DFS though a bit better for BFS.

@@ -1,0 +1,26 @@
+2023-11-05 Matplotlib
+
+Program to search mazes and animate the search:
+
+    python animated_search.py             # for arguments
+    python animated_search.py dfs maze4
+    python animated_search.py astar maze8star 500
+
+-----------------------------------------------
+
+Running matplotlib in this Ubuntu WSL env did not work out of the box.
+
+This dir contains fixes.
+
+1.  helloworld-gui.py - works and uses the Tkinter backend.
+2.  animation.py      - works and also uses the Tkinter backend.   Animates a depth-first search.
+3.  helloworld-agg.py - uses a non-GUI backend to make .png files.
+4.  hello_world.png   - output of helloworld-agg.py
+
+The important point is to include these two lines before other matplotlib imports:
+
+    import matplotlib
+    matplotlib.use('TkAgg')  # Use the Tkinter backend
+    
+Additionally, in the .bashrc I've added "dbus" commands to make it so gedit and other X progs do not get so many errors.
+
